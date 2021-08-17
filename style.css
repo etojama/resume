@@ -12,6 +12,12 @@
   font-size: 3rem;
 }
 
+img {
+  border-radius: 6px;
+  flex-direction: row;
+  margin: 2rem;
+}
+
 #dev {
   font-size: 2rem;
   color: rgb(182, 8, 8);
