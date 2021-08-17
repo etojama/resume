@@ -12,6 +12,22 @@
   font-size: 3rem;
 }
 
+#dev {
+  font-size: 2rem;
+  color: rgb(182, 8, 8);
+  animation-name: devv;
+  animation-duration: 15s;
+}
+
+@keyframes devv {
+  0% {
+    transform: skew(20deg);
+  }
+  100% {
+    transform: skew(180deg);
+  }
+}
+
 .line {
   background-color: rgb(20, 20, 20);
   height: 0.25rem;
@@ -26,6 +42,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 6px;
 }
 
 .contTwo {
@@ -34,6 +51,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(204, 203, 203);
+  border-radius: 6px;
 }
 
 .contTwo h1 {
@@ -64,13 +82,16 @@
     max-width: 100%;
   }
   h1 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
+    text-align: center;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
   p {
     font-size: 0.9rem;
+    text-align: center;
   }
   .line {
     width: 90%;
