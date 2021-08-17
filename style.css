@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+  letter-spacing: 0.23rem;
+}
+
+.header h1 {
+  color: blue;
+  font-size: 3rem;
+}
+
+.line {
+  background-color: rgb(20, 20, 20);
+  height: 0.25rem;
+  width: 40rem;
+  border-radius: 20px;
+}
+
+.header {
+  background-color: rgb(155, 188, 248);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(204, 203, 203);
+}
+
+.contTwo h1 {
+  color: rgb(153, 7, 153);
+  text-align: center;
+}
+
+.objective {
+  text-align: center;
+}
+
+.education {
+  text-align: center;
+}
+
+.skills ul {
+  list-style: circle;
+  line-height: 2rem;
+  letter-spacing: 0.23rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .contTwo {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .line {
+    width: 90%;
+  }
+}
